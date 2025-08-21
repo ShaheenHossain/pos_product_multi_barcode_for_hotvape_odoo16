@@ -1,2 +1,4 @@
-"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_product_multi_barcode_product_barcode_user,product_multi_barcode_product_barcode.user,model_product_barcode,base.group_user,1,1,1,1
+access_product_multi_barcode_product_barcode_portal,product_multi_barcode_product_barcode.portal,model_product_barcode,base.group_portal,1,0,0,0
+access_product_multi_barcode_product_barcode_public,product_multi_barcode_product_barcode.public,model_product_barcode,base.group_public,1,0,0,0
