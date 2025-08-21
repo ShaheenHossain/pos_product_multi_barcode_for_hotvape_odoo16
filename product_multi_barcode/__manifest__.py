@@ -21,6 +21,7 @@
         "views/product_view.xml",
         "views/product_template_view.xml",
         "security/ir.model.access.csv",
+        "security/product_barcode_security.xml",
     ],
     "installable": True,
     "post_init_hook": "post_init_hook",
